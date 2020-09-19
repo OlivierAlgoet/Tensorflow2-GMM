@@ -12,8 +12,8 @@ Example:
 <img src="images/GMM.png" width="600"></img>
 ## Usage
 The GMM.py file can train 2 GMM's. One with label 0 and one with label 1.<br>
-To train your GMM put your data in the data folder with numpy array format (NxD) and name: "data_set"<br>
-If you have have labels put them in the data folder with name "labels" <br>
+To train your GMM put your <bold>pickled</bold> data in the data folder with numpy array format (NxD) and name: "data_set"<br>
+If you have labels put them in the data folder with name "labels" <br>
 If you don't have labels, synthetically make label data by using np.ones((N,))<br>
 
 
